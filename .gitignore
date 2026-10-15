@@ -1,0 +1,52 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Production & Build outputs
+/.next/
+/out/
+/build/
+/dist/
+
+# SQLite databases & journals (data is re-created and seeded automatically)
+/data/*.db
+/data/*.db-journal
+/data/*.db-wal
+/data/*.db-shm
+*.sqlite
+*.sqlite3
+*.db
+!/data/.gitkeep
+
+# Temporary / Scratch development artifacts
+/scratch/
+
+# Environment and sensitive keys
+.env
+.env*.local
+*.pem
+*.key
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
